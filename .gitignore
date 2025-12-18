@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Streamlit
+.streamlit/ secrets.toml
+
+# Database
+*.db
+*.db.wal
+*.duckdb
+
+# Excel/Data (Keep base files, ignore large generated ones if any, but currently keeping BASE_EXCEL)
+# *.xlsx 
+# *.parquet
+
+# IDE
+.vscode/
+.idea/
+
+# User Data (Optional: Decide if you want to commit these or not. Usually better not to commit production data)
+# logs.json
+# user_history.json
+# users.json
